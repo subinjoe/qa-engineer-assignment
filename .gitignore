@@ -5,3 +5,8 @@ npm-debug.log
 # IntelliJ
 *.iml
 /.idea
+/test-results/
+/automation-report/
+/blob-report/
+/playwright/.cache/
+/ctrf/

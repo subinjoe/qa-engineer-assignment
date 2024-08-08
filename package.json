@@ -1,0 +1,23 @@
+{
+  "name": "qa-engineer-assignment",
+  "version": "1.0.0",
+  "description": "Welcome to the QA Engineer Technical Assignment. We expect the work to take a few hours, and we thank you in advance for taking that time for us!",
+  "main": "bundle.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "automation": "npx playwright test",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.9.1",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.1.0",
+    "playwright-ctrf-json-reporter": "^0.0.15",
+    "ts-node": "^10.9.2"
+  }
+}

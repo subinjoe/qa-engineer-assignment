@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container"><div class="container"><header class="header"><h1>The awesome Q/A tool</h1></header><div class="col-md-3"><div class="sidebar">Here you can find 1 question. Feel free to create your own questions!</div></div><div class="col-md-9 content"><div class="questions"><div class="tooltipped-title"><h2 class="tooltipped-title__title">Created questions</h2><span class="tooltipped-title__tooltip hidden-xl-down">Here you can find the created questions and their answers.</span></div><div><div class="card"><ul class="list-group list-group-flush"><li class="list-group-item question"><div class="question__question">How to add a question?</div><p class="question__answer hidden-xl-down">Just use the form below!</p></li></ul></div><div><button class="btn btn-primary">Sort questions</button><button class="btn btn-danger">Remove questions</button></div></div></div><div class="question-maker"><div class="tooltipped-title"><h2 class="tooltipped-title__title">Create a new question</h2><span class="tooltipped-title__tooltip hidden-xl-down">Here you can create new questions and their answers.</span></div><form class="form"><div class="form-group"><label for="question">Question</label><input required="" type="text" id="question" name="question" class="form-control" value=""></div><div class="form-group"><label for="answer">Answer</label><textarea required="" id="answer" name="answer" class="form-control"></textarea></div><button type="submit" class="btn btn-success">Create question</button></form></div></div></div></div>
+    
+    <script src="/bundle.js"></script>
+
+</body></html>
